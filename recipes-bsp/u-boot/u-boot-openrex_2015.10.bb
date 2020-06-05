@@ -11,7 +11,7 @@ version, or because it is not applicable for upstreaming."
 
 LICENSE = "GPLv2+"
 LIC_FILES_CHKSUM = "file://Licenses/README;md5=0507cd7da8e7ad6d6701926ec9b84c95"
-COMPATIBLE_MACHINE = "(mxs|mx5|mx6|mx6ul|mx7|vf|imx6q-openrex)"
+COMPATIBLE_MACHINE = "(mxs|mx5|mx6|mx6ul|mx7|vf|imx6q-openrex|imx6s-openrex)"
 
 DEPENDS_mxs += "elftosb-native openssl-native"
 
@@ -21,7 +21,7 @@ SRCBRANCH ??= "jethro"
 
 SRC_URI = "git://github.com/famodio/openrex-uboot-v2015.10.git;branch=${SRCBRANCH}"
 
-SRCREV = "851e8baf3561b033b89e9a0bd56d64ca2ba7c984"
+SRCREV = "fd873d7257bf2b1ac7a4c00d957b98d7038a73e7"
 
 S = "${WORKDIR}/git"
 

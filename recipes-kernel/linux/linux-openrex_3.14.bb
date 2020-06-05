@@ -14,7 +14,7 @@ LOCALVERSION = "-fslc"
 
 SRCBRANCH = "jethro"
 
-SRCREV = "17e5d22bab89d88e040ae78a9b11b21278faad4d"
+SRCREV = "a7896090be13258a215d0e362c82638fe0b0ed05"
 
 SRC_URI = "git://https://github.com/famodio/openrex-linux-3.14.git;branch=${SRCBRANCH} \
            file://defconfig"
@@ -24,4 +24,4 @@ SRC_URI = "git://https://github.com/famodio/openrex-linux-3.14.git;branch=${SRCB
 
 
 
-COMPATIBLE_MACHINE = "(mx6|mx7|imx6q-openrex)"
+COMPATIBLE_MACHINE = "(mx6|mx7|imx6q-openrex|imx6s-openrex)"
